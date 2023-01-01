@@ -40,5 +40,10 @@
 
 ![alt text](https://github.com/ioatzi/LIDL-Storyland-audiobox-tutorial/blob/main/Photos/arduino-pn532-serial.png)
 
+PN532
 
 [https://www.aliexpress.com/item/32848242166.html?spm=a2g0o.productlist.main.3.464ft9ett9etNX&algo_pvid=27b1dd17-a7db-43de-90bf-29f728195abc&algo_exp_id=27b1dd17-a7db-43de-90bf-29f728195abc-1&pdp_ext_f=%7B%22sku_id%22%3A%2210000001648506311%22%7D&pdp_npi=2%40dis%21USD%212.94%212.65%21%21%21%21%21%40212244c416726063535916724d0757%2110000001648506311%21sea&curPageLogUid=PV2jt75YJgIi]
+
+NTAG213
+
+[https://www.aliexpress.com/item/4000484475821.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=20764203275&aff_fcid=8df92baf04dc4e4293a30f305188cea2-1672607873191-01706-_mMzhXaW&tt=MG&aff_fsk=_mMzhXaW&aff_platform=default&sk=_mMzhXaW&aff_trace_key=8df92baf04dc4e4293a30f305188cea2-1672607873191-01706-_mMzhXaW&shareId=20764203275&businessType=ProductDetail&platform=AE&terminal_id=4907b05840084d3aaf5687e19bcbf7fe&afSmartRedirect=y]
