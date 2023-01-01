@@ -1,41 +1,42 @@
-**# LIDL-Storyland-audiobox-tutorial
+# LIDL-Storyland Αudiobox-Τutorial to add new track and nfc tag
 
 ![alt text](https://github.com/ioatzi/LIDL-Storyland-audiobox-tutorial/blob/main/Photos/image-0001.jpg)
 
 Το συγκεκριμένο repository αποτελεί ένα παράδειγμα που αφορά την προσθήκη καινούργιων παραμυθιών στο LIDL Storyland κουτί και την δημιουργία καινούργιων nfc tags με την χρήση του arduino και του PN532 για την επιλογή-ενεργοποίηση των συγκεκριμένων ηχητικών κομματιών.
 
-Βήμα 1
+# Βήμα 1
 
 Για αρχή, θα πρέπει πρώτα να μετονομάσουμε το αρχείο ήχου που θέλουμε να προσθέσουμε στο LIDL Storyland με την εξής ονομασία "L0016" διότι το LIDL Storyland έχει ήδη κάποια αρχεία μέσα προεγκατεστημένα τα οποία είναι (L0010-L0015). Aυξάνοντας τον αριθμό και δίνοντας τις ονομασίες από L0016 έως L0090 μπορούμε να προσθέσουμε και άλλα αρχεία ήχου.
 
 ![alt text](https://github.com/ioatzi/LIDL-Storyland-audiobox-tutorial/blob/main/Photos/mp3%20files.JPG)
 
-Βήμα 2
+# Βήμα 2
 
 Επόμενο βήμα είναι να μετατρέψουμε την κωδικοποίηση του ονόματος του αρχείο από αυτό που έχει σε UTF16 αυτό γίνεται με τη χρήση του προγράμματος kid3  το οποίο μπορείτε να κατεβάσετε κάνοντας χρήση του παρακάτω Link [https://kid3.kde.org/]. Οπως φαίνεται και απο την παρακάτω εικόνα θα πρέπει να επιλέξουμε το πεδίο τίτλος και πατόντας εκεί που λέει επεξεργασία ανόγει ένα παράθυρο όπου εκεί βλέπουμε τον τίτλο και τον τύπο. 
 
 ![alt text](https://github.com/ioatzi/LIDL-Storyland-audiobox-tutorial/blob/main/Photos/Kid3.png)
 
-Βήμα 3
+# Βήμα 3
 
 Στην συνέχεια και αφού έχουν προηγηθεί τα προηγούμενα βήματα ήρθε η ώρα να μετατρέψουμε το αρχείο mp3 σε smp. Αυτό θα γίνει κάνοντας χρήση του python script που βρίσκεται στο παρακάτω Link [https://github.com/oyooyo/audiocube]. Οδηγίες για την χρήση του python script και πως εκτελείται βρίσκεται στο παρακάτω Link [https://oyooyo.github.io/audiocube/devices/storyland/]. Θα πρέπει το αρχείο mp3 να βρίσκεται μέσα στο φάλελο audiocube όπως επίσης να γίνει χρήση της python με versio 3.7.
 
 ![alt text](https://github.com/ioatzi/LIDL-Storyland-audiobox-tutorial/blob/main/Photos/Convert%20mp3%20to%20smp%20file.JPG)
 
-Βήμα 4
+# Βήμα 4
 
 Αφού μετατρέψουμε το αρχείο του mp3 σε smp, συνδέουμε το LIDL Storyland κουτί μέσω καλώδιο micro-usb στον υπολογιστή και μεταφέρουμε το αρχείο smp στην sd κάρτα που εμφανίζεται.
 
-Βήμα 5
+# Βήμα 5
 
 Θα πρέπει για το κάθε αρχείο που προσθέτουμε στο LIDL Storyland κουτί να δημιουργήσουμε ένα ξεχωρηστό nfc tag με το όνομα που έχουμε δώσει στο αρχείο smp. Για να γίνει αυτό υπάρχουν δύο τρόπη. Ένας είναι μέσω κινητού τηλεφώνου με διαθέτι nfc τεχνολογία και ο άλλος τρόπος είναι με την χρήση του arduino και του περιφεριακού PN532.
 
-Πρώτος τρόπος
+## Πρώτος τρόπος
 
 [https://zapped.to/blog/program-an-nfc-tag-with-iphone/]
 
-Δεύτερος τρόπος
+## Δεύτερος τρόπος
 
+![alt text](https://github.com/ioatzi/LIDL-Storyland-audiobox-tutorial/blob/main/Photos/arduino-pn532-serial.png)
 Για να γράψουμε ένα nfc tag και συγκεκριμένα ένα NTAG213 κάνουμε χρήση του κώδικα [https://github.com/ioatzi/LIDL-Storyland-audiobox-tutorial/tree/main/Code%20for%20NFC%20tag] το οποίο τροποποιήθηκε απο αυτό το Link [https://github.com/dominicklee/Arduino-PN532-NTAG213] κατάληλα ώστε να γράφουμε την σωστή ονομασία στα nfc tag.Στην παρακάτω εικόνα φαίνεται η συνδεσμολογία του arduino με το PN532. 
 
 ![alt text](https://github.com/ioatzi/LIDL-Storyland-audiobox-tutorial/blob/main/Photos/arduino-pn532-serial.png)
@@ -72,6 +73,8 @@
 02200408003500 (custom NEW)
 
 ...
+
+# Εξαρτήματα
 
 Τα εξαρτήματα που χρειάστηκε να αγοράσω δίνονται παρακάτω:
 
