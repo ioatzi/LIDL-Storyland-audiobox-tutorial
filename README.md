@@ -18,7 +18,7 @@
 
 # Βήμα 3
 
-Στην συνέχεια και αφού έχουν προηγηθεί τα προηγούμενα βήματα ήρθε η ώρα να μετατρέψουμε το αρχείο mp3 σε smp. Αυτό θα γίνει κάνοντας χρήση του python script που βρίσκεται στο παρακάτω Link [https://github.com/oyooyo/audiocube]. Οδηγίες για την χρήση του python script και πως εκτελείται βρίσκεται στο παρακάτω Link [https://oyooyo.github.io/audiocube/devices/storyland/]. Θα πρέπει το αρχείο mp3 να βρίσκεται μέσα στο φάλελο audiocube όπως επίσης να γίνει χρήση της python με versio 3.7.
+Στην συνέχεια και αφού έχουν προηγηθεί τα προηγούμενα βήματα ήρθε η ώρα να μετατρέψουμε το αρχείο mp3 σε smp. Αυτό θα γίνει κάνοντας χρήση του python script που βρίσκεται στο παρακάτω Link [https://github.com/oyooyo/audiocube]. Οδηγίες για την χρήση του python script και πως εκτελείται βρίσκεται στο παρακάτω Link [https://oyooyo.github.io/audiocube/devices/storyland/]. Θα πρέπει το αρχείο mp3 να βρίσκεται μέσα στο φάλελο audiocube όπως επίσης να γίνει χρήση της python με version 3.7.
 
 ![alt text](https://github.com/ioatzi/LIDL-Storyland-audiobox-tutorial/blob/main/Photos/Convert%20mp3%20to%20smp%20file.JPG)
 
