@@ -32,7 +32,7 @@
 
 Πρώτος τρόπος
 
-[ttps://zapped.to/blog/program-an-nfc-tag-with-iphone/]
+[https://zapped.to/blog/program-an-nfc-tag-with-iphone/]
 
 Δεύτερος τρόπος
 
