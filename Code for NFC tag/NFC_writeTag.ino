@@ -41,10 +41,7 @@ void loop(void) {
     Serial.println(F(" bytes"));
 
     String lines[14];
-    lines[0] = "02200408002800";
-//    lines[1] = "0408 ";
-//    lines[2] = "0116 ";
-//    lines[3] = "0000 ";
+    lines[0] = "02200408002800"; //Είναι το όνομα του nfc tag αλλάζουμε τα δύο προ τελευταία ψηφία αναλογα με το όνομα που έχουμε δώσει στο αρχείο smp πχ.L0028
     writeTag(lines, 1);
 
     // wait until the tag is removed
