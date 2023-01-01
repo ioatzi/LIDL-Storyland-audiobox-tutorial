@@ -39,7 +39,7 @@
 ![alt text](https://github.com/ioatzi/LIDL-Storyland-audiobox-tutorial/blob/main/Photos/arduino-pn532-serial.png)
 Για να γράψουμε ένα nfc tag και συγκεκριμένα ένα NTAG213 κάνουμε χρήση του κώδικα [https://github.com/ioatzi/LIDL-Storyland-audiobox-tutorial/tree/main/Code%20for%20NFC%20tag] το οποίο τροποποιήθηκε απο αυτό το Link [https://github.com/dominicklee/Arduino-PN532-NTAG213] κατάληλα ώστε να γράφουμε την σωστή ονομασία στα nfc tag.Στην παρακάτω εικόνα φαίνεται η συνδεσμολογία του arduino με το PN532. 
 
-![alt text](https://github.com/ioatzi/LIDL-Storyland-audiobox-tutorial/blob/main/Photos/arduino-pn532-serial.png)
+
 
 Ένα παράδειγμα για το πως θα γίνει η ονομασια των nfc tag δίνεται παρακάτω.
 
