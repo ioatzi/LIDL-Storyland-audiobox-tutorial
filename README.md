@@ -78,6 +78,10 @@
 
 Τα εξαρτήματα που χρειάστηκε να αγοράσω δίνονται παρακάτω:
 
+Arduino Uno
+
+[https://grobotronics.com/funduino-uno-rev3-arduino-uno-compatible.html]
+
 PN532
 
 [https://www.aliexpress.com/item/32848242166.html?spm=a2g0o.productlist.main.3.464ft9ett9etNX&algo_pvid=27b1dd17-a7db-43de-90bf-29f728195abc&algo_exp_id=27b1dd17-a7db-43de-90bf-29f728195abc-1&pdp_ext_f=%7B%22sku_id%22%3A%2210000001648506311%22%7D&pdp_npi=2%40dis%21USD%212.94%212.65%21%21%21%21%21%40212244c416726063535916724d0757%2110000001648506311%21sea&curPageLogUid=PV2jt75YJgIi]
