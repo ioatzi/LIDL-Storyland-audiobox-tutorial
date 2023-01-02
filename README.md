@@ -1,5 +1,5 @@
 # LIDL-Storyland Αudiobox-Τutorial to add new track and nfc tag
-<img src="https://github.com/ioatzi/LIDL-Storyland-audiobox-tutorial/blob/main/Photos/image-0001.jpg" width=50% height=50%>
+<img src="https://github.com/ioatzi/LIDL-Storyland-audiobox-tutorial/blob/main/Photos/Storyland%20box-1.jpg" width=50% height=50%>
 
 
 # Video
