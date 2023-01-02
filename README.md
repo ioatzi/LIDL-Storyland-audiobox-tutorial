@@ -1,7 +1,11 @@
 # LIDL-Storyland Αudiobox-Τutorial to add new track and nfc tag
+<img src="https://github.com/ioatzi/LIDL-Storyland-audiobox-tutorial/blob/main/Photos/image-0001.jpg" width=50% height=50%>
 
-![alt text](https://github.com/ioatzi/LIDL-Storyland-audiobox-tutorial/blob/main/Photos/image-0001.jpg)
 
+# Video
+[![Lidl-Storyland box - Tutorial](https://www.youtube.com/watch?v=2aQyOtd8eC8)]
+
+# Εισαγωγή
 Το συγκεκριμένο repository αποτελεί ένα παράδειγμα που αφορά την προσθήκη καινούργιων παραμυθιών στο LIDL Storyland κουτί και την δημιουργία καινούργιων nfc tags με την χρήση του arduino και του PN532 για την επιλογή-ενεργοποίηση των συγκεκριμένων ηχητικών κομματιών.
 
 # Βήμα 1
@@ -26,6 +30,11 @@
 
 Αφού μετατρέψουμε το αρχείο του mp3 σε smp, συνδέουμε το LIDL Storyland κουτί μέσω καλώδιο micro-usb στον υπολογιστή και μεταφέρουμε το αρχείο smp στην sd κάρτα που εμφανίζεται.
 
+<img src="https://github.com/ioatzi/LIDL-Storyland-audiobox-tutorial/blob/main/Photos/Storyland%20box%20-usb%20to%20PC.jpg" width=50% height=10%>
+
+<img src="https://github.com/ioatzi/LIDL-Storyland-audiobox-tutorial/blob/main/Photos/Sd%20Lidl-Box.JPG" width=50% height=50%>
+
+
 # Βήμα 5
 
 Θα πρέπει για το κάθε αρχείο που προσθέτουμε στο LIDL Storyland κουτί να δημιουργήσουμε ένα ξεχωρηστό nfc tag με το όνομα που έχουμε δώσει στο αρχείο smp. Για να γίνει αυτό υπάρχουν δύο τρόπη. Ένας είναι μέσω κινητού τηλεφώνου που διαθέτι nfc τεχνολογία και ο άλλος τρόπος είναι με την χρήση του arduino και του περιφεριακού PN532.
@@ -37,9 +46,10 @@
 ## Δεύτερος τρόπος
 
 ![alt text](https://github.com/ioatzi/LIDL-Storyland-audiobox-tutorial/blob/main/Photos/arduino-pn532-serial.png)
+
 Για να γράψουμε ένα nfc tag και συγκεκριμένα ένα NTAG213 κάνουμε χρήση του κώδικα [https://github.com/ioatzi/LIDL-Storyland-audiobox-tutorial/tree/main/Code%20for%20NFC%20tag] το οποίο τροποποιήθηκε απο αυτό το Link [https://github.com/dominicklee/Arduino-PN532-NTAG213] κατάληλα ώστε να γράφουμε την σωστή ονομασία στα nfc tag.Στην παρακάτω εικόνα φαίνεται η συνδεσμολογία του arduino με το PN532. 
 
-
+<img src="https://github.com/ioatzi/LIDL-Storyland-audiobox-tutorial/blob/main/Photos/Arduino-PN532%202.jpg" width=50% height=50%>
 
 Ένα παράδειγμα για το πως θα γίνει η ονομασια των nfc tag δίνεται παρακάτω.
 
@@ -73,6 +83,10 @@
 02200408003500 (custom NEW)
 
 ...
+
+
+<img src="https://github.com/ioatzi/LIDL-Storyland-audiobox-tutorial/blob/main/Photos/nfc.JPG" width=50% height=50%>
+
 
 # Εξαρτήματα
 
