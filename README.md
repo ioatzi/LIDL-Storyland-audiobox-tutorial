@@ -3,7 +3,9 @@
 
 
 # Video
-[![Lidl-Storyland box - Tutorial](https://www.youtube.com/watch?v=2aQyOtd8eC8)]
+
+[Lidl-Storyland box - Tutorial](https://www.youtube.com/watch?v=2aQyOtd8eC8)
+
 
 # Εισαγωγή
 Το συγκεκριμένο repository αποτελεί ένα παράδειγμα που αφορά την προσθήκη καινούργιων παραμυθιών στο LIDL Storyland κουτί και την δημιουργία καινούργιων nfc tags με την χρήση του arduino και του PN532 για την επιλογή-ενεργοποίηση των συγκεκριμένων ηχητικών κομματιών.
