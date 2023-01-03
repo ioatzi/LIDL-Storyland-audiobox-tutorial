@@ -34,7 +34,7 @@
 
 <img src="https://github.com/ioatzi/LIDL-Storyland-audiobox-tutorial/blob/main/Photos/Storyland%20box%20-usb%20to%20PC.jpg" width=50% height=10%>
 
-<img src="https://github.com/ioatzi/LIDL-Storyland-audiobox-tutorial/blob/main/Photos/Sd%20Lidl-Box.JPG" width=50% height=50%>
+![alt text](https://github.com/ioatzi/LIDL-Storyland-audiobox-tutorial/blob/main/Photos/Sd%20Lidl-Box.JPG) 
 
 
 # Βήμα 5
