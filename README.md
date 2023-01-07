@@ -55,6 +55,8 @@
 
 Ένα παράδειγμα για το πως θα γίνει η ονομασια των nfc tag δίνεται παρακάτω.
 
+<img src="https://github.com/ioatzi/LIDL-Storyland-audiobox-tutorial/blob/main/Photos/nfc213%20tag.jpg"  width=50% height=50%>
+
 
 02200408001000
 
